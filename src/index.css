@@ -1,0 +1,1151 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './custom.css';
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.gradient, .scontainer .shell {
+  background: #009ba4;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ba4', endColorstr='#2bedc4', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 16px;
+  padding-top: 150px;
+  /* padding-bottom: 150px; */
+  background: #f3f3f3;
+  font-weight: 500;
+}
+
+.login-container {
+  top: 0px;
+  padding-top: 150px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#009ba4+0,2bedc4+100 */
+  background: #009ba4;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ba4', endColorstr='#2bedc4', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.login-bg{
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#009ba4+0,2bedc4+100 */
+  background: #009ba4;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ba4', endColorstr='#2bedc4', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.dropdown-menu{
+  min-width: 150px;
+}
+
+@media only screen and (max-width: 667px) {
+  .login-bg {
+    padding: 0px !important;
+  }
+}
+
+.login {
+  max-width: 600px;
+  background: #fff;
+  padding: 60px 60px;
+  border-radius: 10px;
+  margin: 100px auto;
+  box-shadow: -12px 19px 126px 3px #00000054;
+}
+
+.login h4 {
+  margin-bottom: 40px;
+}
+
+.login .form-group {
+  margin-bottom: 20px;
+}
+
+.login .control-label {
+  text-align: left;
+}
+
+.login .form-control {
+  border: 2px solid #e6e6e6 !important;
+  border-radius: 0px;
+  min-height: 40px !important;
+  background: #F9F9F9;
+}
+
+.login .btn-login {
+  background: #003539;
+  width: 100%;
+  color: #fff;
+  padding: 15px;
+  border: 0px;
+  margin-top: -20px;
+}
+
+.nav-cstm {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #fff;
+}
+
+.nav-cstm .navbar-brand {
+  color: #0BB0AC;
+}
+
+.nav-cstm .navbar-right li a {
+  color: #003539;
+  font-weight: 600;
+}
+
+.btn-challange {
+  background: #003539;
+  padding: 30px 50px;
+  border: 0px;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: -16px 18px 80px -6px #11111159;
+}
+
+.center-block {
+  float: none;
+  margin: 0px auto;
+}
+
+.center-block h4 {
+  color: #003539;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.center-block .mt-100 {
+  margin-top: 100px;
+  text-align: left;
+}
+
+.scontainer .shell {
+  height: 200px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: -16px 18px 80px -6px #11111159;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.scontainer .shell p.btn-contain {
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.scontainer .shell .draft {
+  background: #333;
+  color: #fff;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1px;
+}
+
+.scontainer .shell .publish {
+  background: transparent;
+  color: #333;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.scontainer .shell-name {
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.scontainer .shell-stat {
+  font-weight: 700;
+}
+
+.scontainer .shell-url-container {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  width: 100%;
+  left: 0px;
+}
+
+.scontainer .shell-url {
+  border: 1px solid #333;
+  width: 70%;
+  float: left;
+  height: 25px;
+  background: transparent;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-size: 12px;
+  padding-left: 3px;
+  font-weight: 600;
+  color: #000;
+}
+
+.scontainer .shell-url:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.scontainer .shell-btn-copy {
+  background: #333;
+  color: #fff;
+  float: right;
+  width: 30%;
+  border: 0px;
+  font-size: 12px;
+  text-transform: uppercase;
+  height: 25px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.scontainer .shell-btn-copy:hover {
+  background: #000;
+}
+
+.scontainer .shell-empty {
+  height: 200px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: 2px dashed #808080;
+  margin-bottom: 30px;
+}
+
+.tabs h4 {
+  color: #003539;
+  font-weight: 700;
+}
+
+.tabs-cstm {
+  border-bottom: 0px;
+  margin-bottom: 50px;
+}
+
+.tabs-cstm li a {
+  background: transparent;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #003539;
+  margin-right: 25px;
+}
+
+.tabs-cstm li a:focus {
+  border: 0px;
+  border-bottom: 5px solid #003539;
+  background: transparent;
+}
+
+.tabs-cstm li.active a {
+  background: transparent;
+  border: 0px;
+  border-bottom: 5px solid #003539;
+  color: #003539;
+  font-weight: 600;
+}
+
+.tabs-cstm li.active a:hover {
+  border: 0px;
+  border-bottom: 5px solid #003539;
+  background: transparent;
+}
+
+.tabs-cstm li.active a:focus {
+  border: 0px;
+  border-bottom: 5px solid #003539;
+  background: transparent;
+  color: #003539;
+}
+
+.tabs-content-cstm .resrow {
+  background: #e4e4e4;
+  padding: 20px 25px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 3px;
+  border-radius: 3px;
+}
+
+.tabs-content-cstm .resrow p {
+  margin-bottom: 0px;
+}
+
+.tabs-content-cstm .resrow .approved {
+  color: #7ed321;
+}
+
+.tabs-content-cstm .resrow .rejected {
+  color: #D0021B;
+}
+
+.tnav {
+  padding: 25px 0px;
+  margin-bottom: 50px;
+}
+
+.tnav a {
+  color: #003539;
+  font-weight: 700;
+  display: block;
+  font-size: 14px;
+}
+
+.tnav a.tnav-pbtn {
+  border: 2px solid #003539;
+  padding: 7px 15px;
+  min-width: 120px;
+  text-align: center;
+  border-radius: 5px;
+  float: right;
+}
+
+.tnav .form-control {
+  width: 100%;
+  background: #E9E9E9;
+  border: 0px;
+  height: 40px;
+  border-radius: 5px;
+  color: #003539;
+  padding: 5px 15px;
+  font-weight: 700;
+  box-shadow: none;
+}
+
+.tnav.preview {
+  background: #F5A623;
+}
+
+.tnav.violet {
+  background: #BD10E0;
+  padding: 25px;
+  color: #fff;
+}
+
+.tnav.violet .sm-txt {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.tnav.violet .lg-txt {
+  font-size: 18px;
+  margin-bottom: 7px;
+  display: block;
+}
+
+.tnav.violet .tnav-pbtn {
+  color: #fff;
+  border-color: #fff;
+  margin-left: 5px;
+}
+
+.tnav.violet .tnav-pbtn.save {
+  background: #fff;
+  color: #BD10E0;
+}
+
+.preview-area .small-warning {
+  font-size: 11px;
+  margin-bottom: 45px;
+}
+
+.preview-area .small-warning span {
+  font-weight: 600;
+}
+
+.preview-area .title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.preview-area .timer-flick {
+  position: relative;
+  display: block;
+}
+
+.preview-area .timer-flick .challange-txt {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.preview-area .timer-flick .timer-div {
+  width: 100px;
+  border: 1px solid #929292;
+  height: 45px;
+  position: absolute;
+  left: 100%;
+  top: 0px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.preview-area .prev-control {
+  background: #DFE1E4;
+  height: 200px;
+  padding: 10px;
+  overflow: auto;
+  border: 0px;
+  resize: none;
+  width: 100%;
+}
+
+.preview-area .btn-container {
+  margin-top: -10px;
+}
+
+.preview-area .btn-container .reset {
+  background: #9B9B9B;
+  display: inline;
+  border: 0px;
+  color: #fff;
+  width: 25%;
+  height: 60px;
+}
+
+.preview-area .btn-container .submit {
+  background: #003539;
+  display: inline;
+  color: #fff;
+  width: 75%;
+  border: 0px;
+  height: 60px;
+}
+
+.preview-area .inspire-container {
+  background: #DFE1E4;
+  height: 320px;
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.preview-area .inspire-container button {
+  background: #003539;
+  color: #fff;
+  /* display: block; */
+  border: 0px;
+  margin: 80px auto 15px auto;
+  padding: 15px 30px;
+}
+
+.inspire-me-button {
+  background: #003539;
+  color: #fff;
+  border: 0px;
+  padding: 15px 30px;
+  width: 200px;
+}
+
+button {
+  border-radius: 3px;
+}
+
+.preview-area .inspire-container p {
+  text-align: center;
+  display: block;
+  font-size: 12px;
+  font-style: italic;
+  padding: 0px 50px;
+}
+
+.preview-area .inspire-container .p-first {
+  padding-top: 140px;
+}
+
+.preview-area .idea-contain .resrow {
+  background: #e4e4e4;
+  padding: 20px 25px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+button{
+  border-radius: 3px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-group .form-label {
+  color: #003539;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-group .form-control {
+  background: transparent;
+  border: 1px solid #a4a4a4;
+  border-radius: 0;
+  min-height: 70px;
+}
+
+.form-group .form-control:focus {
+  box-shadow: none;
+  border-color: #003539;
+}
+
+.form .timer {
+  border: 1px solid #a4a4a4;
+  position: relative;
+  width: 145px;
+  height: 58px;
+  font-size: 25px !important;
+  padding: 10px;
+}
+
+.form .timer .left {
+  width: 50px;
+  position: absolute;
+  left: 20px;
+  border: 0px;
+  text-align: center;
+  background: transparent;
+}
+
+.form .timer .left:focus {
+  color: #003539;
+  box-shadow: none;
+  outline: 0px;
+}
+
+.form .timer span {
+  font-size: 35px;
+  margin-top: -8px;
+  position: absolute;
+  left: 70px;
+  color: #696969;
+}
+
+.form .timer .right {
+  width: 50px;
+  position: absolute;
+  right: 18px;
+  border: 0px;
+  text-align: center;
+  background: transparent;
+}
+
+.form .timer .right:focus {
+  color: #003539;
+  box-shadow: none;
+  outline: 0px;
+}
+
+.configure p {
+  font-weight: 600;
+  color: #696969;
+}
+
+.configure .inpiration {
+  background: #DEDEDE;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.configure .inpiration .form-control {
+  background: #fff;
+  height: 100px;
+  resize: none;
+  overflow: auto;
+}
+
+.configure .inpiration .img-droparea {
+  width: 100%;
+  height: 100px;
+  border: 2px dashed #a4a4a4;
+  position: relative;
+}
+
+.configure .inpiration .img-droparea:after {
+  position: absolute;
+  content: "Or";
+  color: #545454;
+  top: 33px;
+  right: -28px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.configure .inpiration .inspire-link {
+  color: #003539;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.inpiration-preview {
+  background: #DEDEDE;
+  margin-bottom: 7px;
+  border-radius: 3px;
+  min-height: 200px;
+  padding: 20px 50px;
+  overflow: hidden;
+  height: 450px;;
+}
+
+.inpiration-preview p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.inpiration-preview a {
+  display: block;
+  color: #003539;
+  border: 1px solid #003539;
+  margin-top: 5px;
+  text-align: center;
+  float: right;
+  padding: 2px 10px;
+  border-radius: 3px;
+}
+
+.inpiration-preview a:hover {
+  background: #003539;
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*****************************************
+  upload button styles
+******************************************/
+
+.file-upload {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.file-upload__label {
+  display: block;
+  padding: 1em 2em;
+  color: #545454;
+  background: transparent;
+  transition: background .3s;
+  height: 100px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.file-upload__label:hover {
+  cursor: pointer;
+  background: transparent;
+}
+
+.file-upload__input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1;
+  width: 0;
+  height: 100%;
+  opacity: 0;
+}
+
+.preview-btn-g {
+  border: 2px solid #003539;
+  padding: 7px 15px;
+  min-width: 120px;
+  text-align: center;
+  border-radius: 5px;
+  float: right;
+  color: #003539;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.blank-div {
+  display: block;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.landing {
+  height: 100%;
+  width: 100%;
+  padding-top: 135px;
+  position: fixed;
+  padding-bottom: 100px;
+  overflow: auto;
+  top: 0px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#019ea5+0,30f5c7+100 */
+  background: #019ea5;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #019ea5 0%, #30f5c7 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #019ea5 0%, #30f5c7 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #019ea5 0%, #30f5c7 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#019ea5', endColorstr='#30f5c7', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.landing .logo-invert {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 15px;
+  display: block;
+  position: relative;
+}
+
+.landing .landing-invert {
+  position: relative;
+  color: #4A4A4A;
+  height: 100%;
+  width: 90%;
+  display: block;
+  margin: 0px auto;
+}
+
+.landing-header {
+  color: #4a4a4a;
+  position: relative;
+  font-weight: 700;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.landing-header span {
+  z-index: 9;
+  padding-right: 25px;
+  flex-basis: auto;
+}
+
+.landing-header .fix-border {
+  flex-grow: 1;
+  position: relative;
+}
+
+.landing-header .fix-border:after {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 5px;
+  background: #1DB197;
+  right: 0px;
+  top: 15px;
+  border-radius: 3px;
+}
+
+.landing-header-no-dec .close-modal {
+  position: absolute;
+  top: -45px;
+  font-size: 22px;
+  color: #4a4a4a;
+  font-weight: 500;
+  cursor: pointer;
+  right: -20px;
+}
+
+.landing-header-no-dec span {
+  background: transparent;
+}
+
+.landing-header-no-dec:after {
+  display: none;
+}
+
+.about-area .head-m {
+  margin-bottom: 25px;
+  font-size: 16px;
+  display: block;
+}
+
+.about-area p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.about-area p strong {
+  color: #003539;
+  font-style: italic;
+}
+
+.about-area a {
+  color: #003539;
+  font-weight: 600;
+}
+
+.btn-area {
+  display: block;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.btn-area a {
+  display: block;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: underline;
+  color: #003539;
+  font-weight: 600;
+}
+
+.faq {
+  font-size: 14px;
+}
+
+.faq .border-top {
+  border-top: 1px solid #179e8b;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.faq .border-top.border-bottom {
+  border-bottom: 1px solid #179e8b;
+}
+
+.cc-margin-fix {
+  margin-top: calc(10% - 0px);
+}
+
+.subscribe .checkbox input[type="checkbox"] {
+  height: 18px;
+  width: 19px;
+  margin-top: 1px;
+  margin-right: 0px;
+}
+
+.subscribe .checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.subscribe .radio-plz {
+  padding-top: 15px;
+}
+
+.subscribe dl {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.subscribe .form-control {
+  background: #fff;
+  margin-bottom: 10px;
+  height: 60px;
+  min-height: 50px;
+  border: 2px solid #c3c3c3;
+}
+
+.subscribe input[type="radio"] {
+  display: none;
+}
+
+.subscribe input[type="radio"]+label {
+  color: #333;
+  font-size: 15px;
+}
+
+.subscribe input[type="radio"]+label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.subscribe input[type="radio"]+label span {
+  background-color: #fff;
+}
+
+.subscribe input[type="radio"]:checked+label span {
+  background-color: #333;
+}
+
+.subscribe input[type="radio"]+label span, .subscribe input[type="radio"]:checked+label span {
+  transition: background-color 0.4s linear;
+}
+
+.subscribe input[type="radio"]+label span, .subscribe input[type="radio"]:checked+label span {
+  transition: background-color 0.4s linear;
+}
+
+.subscribe .btn-subscribe {
+  background: #003539;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: 0px;
+}
+
+.user-action {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.user-action-avatar {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #003539;
+  text-align: center;
+  padding: 7px;
+  float: left;
+}
+.user-action .user-name {
+  float: left;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.user-action .user-name span {
+  display: block;
+}
+.user-action-btn {
+  float: right;
+  text-align: right;
+}
+.user-action-btn .btn-theme {
+  background: #003539;
+  border: 1px solid #003539;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.user-action-btn .btn-trans {
+  background: transparent;
+  border: 1px solid #003539;
+  color: #003539;
+  padding: 10px 25px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.dots {
+  background: #e4e4e4;
+  padding: 30px 20px;
+  position: relative;
+}
+.dots-strip {
+  background: #F5A623;
+  height: 3px;
+  width: 100%;
+  position: relative;
+}
+.dots-strip dl {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #003539;
+  left: 0px;
+  top: -4px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 3px #00353952;
+}
+.idea-contain .resrow {
+  background: #e4e4e4;
+  padding: 20px 25px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 3px;
+  border-radius: 3px;
+  position: relative;
+}
+.idea-contain .resrow p {
+  margin-bottom: 0px;
+  padding-right: 30px;
+}
+.idea-contain .resrow .checkbox {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.idea-contain .resrow .checkbox input {
+  width: 20px;
+  height: 20px;
+}
+.label-top-fix {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  color: #003539;
+}
+.label-top-fix span {
+  float: right;
+  font-weight: 500;
+}
+.blank-solid{
+  background: #003539;
+  height: 8px;
+  width: 100%;
+}
+
+.resrow-border {
+  border: 1px solid #003539;
+  background: #f3f3f3 !important;
+}
+
+.validation {
+  position: relative;
+}
+
+.validation .valid-sidepanel {
+  position: absolute;
+  left: 102%;
+  top: -50px;
+  background: transparent;
+  width: 300px;
+  height: 380px;
+}
+
+.validation .valid-sidepanel .sidepanel-inner {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: auto;
+}
+
+.validation .valid-sidepanel .sidepanel-inner-row {
+  margin-bottom: 10px;
+  display: block;
+  background: #E7E7E7;
+  padding: 5px;
+}
+
+.validation .valid-sidepanel .sidepanel-inner-row img {
+  float: left;
+  border: 1px solid orange;
+  margin-right: 5px;
+}
+
+.validation .valid-sidepanel .sidepanel-inner-row p {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.validation .validate-button {
+  background-color: #f7a700;
+  color: #003539;
+  width: 45%;
+  height: 35px;
+  font-size: inherit;
+}
+
+.validation .nothing-fits-button {
+  background-color: #fff;
+  color: #003539;
+  border: 2px solid;
+  width: 45%;
+  height: 35px;
+  font-size: inherit;
+  margin-left: 15px;
+}
+
+dl.star {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background: transparent url(./resources/images/star.png) no-repeat;
+  background-size: 17px 17px;
+  top: -8px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.i2m-header-logo {
+  background: url(./resources/images/i2mLogoLite.png) no-repeat;
+}
+
+.relative{
+  position: relative;
+}
+
+.idea-dot-icon {
+  width: 10px;
+  height: 10px;
+  background: #003539;
+  border-radius: 5px;
+  margin-left: 10px;
+  box-shadow: 0px 0px 0px 3px #00353952;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.inspiration-star-icon {
+  margin-left: 5px;
+  width: 17px;
+  height: 17px;
+  background: transparent url(./resources/images/star.png) no-repeat;
+  background-size: 17px 17px;
+  top: -8px;
+  border-radius: 5px;
+  box-shadow: none;
+}

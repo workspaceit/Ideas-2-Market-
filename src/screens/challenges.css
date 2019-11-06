@@ -1,0 +1,146 @@
+.btn-challange {
+  background: #003539;
+  padding: 30px 50px;
+  border: 0px;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: -16px 18px 80px -6px #11111159;
+}
+
+.center-block {
+  float: none;
+  margin: 0px auto;
+}
+
+.center-block h4 {
+  color: #003539;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.center-block .mt-100 {
+  margin-top: 100px;
+  text-align: left;
+}
+
+.scontainer .shell {
+  height: 200px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: -16px 18px 80px -6px #11111159;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.scontainer .shell p.btn-contain {
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.scontainer .shell .draft {
+  background: #333;
+  color: #fff;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1px;
+}
+
+.scontainer .shell .publish {
+  background: transparent;
+  color: #333;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1px;
+}
+
+.scontainer .shell-name {
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.scontainer .shell-stat {
+  font-weight: 700;
+}
+
+.scontainer .shell-url-container {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  width: 100%;
+  left: 0px;
+}
+
+.scontainer .shell-url {
+  border: 1px solid #333;
+  width: 70%;
+  float: left;
+  height: 25px;
+  background: transparent;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-size: 12px;
+  padding-left: 3px;
+  font-weight: 600;
+  color: #000;
+}
+
+.scontainer .shell-url:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.scontainer .shell-btn-copy {
+  background: #333;
+  color: #fff;
+  float: right;
+  width: 30%;
+  border: 0px;
+  font-size: 12px;
+  text-transform: uppercase;
+  height: 25px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.scontainer .shell-btn-copy:hover {
+  background: #000;
+}
+
+.scontainer .shell-empty {
+  height: 200px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: 2px dashed #808080;
+  margin-bottom: 30px;
+}
+
+.gradient, .scontainer .shell {
+  background: #009ba4;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #009ba4 0%, #2bedc4 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ba4', endColorstr='#2bedc4', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}

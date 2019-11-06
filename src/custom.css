@@ -1,0 +1,97 @@
+span.draft {
+  cursor: pointer;
+}
+.form-control-feedback {
+  pointer-events: all !important;
+  top: 3px;
+  cursor: pointer;
+}
+.login .btn-login:disabled,
+.preview-area .btn-container .submit:disabled,
+.subscribe .btn-subscribe:disabled{
+  background-color: #22575A;
+  cursor: not-allowed;
+}
+.submit-session-btn {
+  background: #003539;
+  color: #fff;
+  border: 0px;
+  margin: 60px auto 15px auto;
+  padding: 15px 30px;
+  display: inherit;
+}
+
+.shell-name {
+  cursor: pointer;
+}
+.empty-idea {
+  background-color: #D8D8D8;
+}
+.view-message {
+  font-style: italic;
+  font-weight: 700;
+  color: #003539;
+  padding: 10px 0;
+}
+.ideator {
+  cursor: pointer;
+}
+.tnav {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.tnav.withMargin {
+  margin-bottom: 25px !important;
+}
+.tab-title {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.btn-trans {
+  margin-left: 4px;
+}
+.btn-export {
+  background: #003539;
+  border: 1px solid #003539;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.btn-export:disabled {
+  background-color: #668688;
+  border-color: #668688;
+}
+.li-export {
+  float: right !important;
+}
+
+.prev-control .current-candidate {
+  cursor: pointer;
+  background-color: #F5A623;
+  border: 1px solid #F5A623;
+  border-radius: 2px;
+}
+.prev-control .validated-candidate {
+  font-weight: 700;
+  color: #003539;
+}
+.prev-control .validated-candidate-nf {
+  font-weight: 700;
+  color: #9B9B9B;
+}
+.prev-control .normal-candidate {
+  cursor: pointer;
+  border: 1px solid #F5A623;
+  border-radius: 2px;
+}
+.preview-area .timer-flick .timer-div {
+  top: -29px !important;
+  left: 102% !important;
+}
+.sidepanel-inner-row {
+  cursor: pointer;
+}
+.sidepanel-inner-row.selected {
+  border: 1px solid #003539;
+}

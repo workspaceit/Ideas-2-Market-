@@ -1,0 +1,14 @@
+.nav-cstm {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #fff;
+}
+
+.nav-cstm .navbar-brand {
+    color: #0BB0AC;
+}
+
+.nav-cstm .navbar-right li a {
+    color: #003539;
+    font-weight: 600;
+}
